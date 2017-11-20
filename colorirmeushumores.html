@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="colorirmeushumores.css"/>
+		<title>Colorir meus Humores</title>
+	</head>
+
+	<body>
+
+	<a href="index.html">Retour au CV</a>
+
+		<h1>Colorier mes humeurs</h1>
+
+		<h2>Prendre conscience de nos humeurs et les transformer à l'aide de l'stockage de couleurs et son visualisation</h2>
+		<p>Prendre conscience des nos états d'humeurs peut nous aider à les changer ou au moins être moins critiques vers nous mêmes: si aujourd'hui vous êtes plus tristoné(e), fatigué(e), etc, vous allez voir dans votre bilan de couleurs que peut être il y a de jours que vous êtes bien sorriant(e), dinamyque, etc. Mon idée ce qu'avec le stockage de vos couleurs, vous allez percevoir vos états emótionnels d'une autre façon et peut être vous allez pouvoir les transformer si vous voulez bien, bien sûr.</p>
+		<h2>Le projet</h2>
+		
+		<ul>
+		<li>Étape 1: Créer mon compte</li>
+
+
+		<form method="post" action="traitement.php">
+
+		<p>
+			<label for="pseudo">Votre pseudo:</label>
+			<input type="text" name="pseudo" id="pseudo" placeholder="WonderWoman"/>
+
+			<br/>
+			<label for="pass">Votre mot de passe:</label>
+			<input type="password" name="pass" id="pass" autofocus/>
+			</br>
+			<label for="email">Saisissez votre e-mail:</label>
+			<input type="email" name="email" id="e-mail"/>
+			<input type="submit" value="Créer votre compte"/>
+			<li>Étape 2: Visualizer un panneau de couleurs</li>
+			<li>Étape 3: Choisissez les couleurs de vos humeurs!</li>
+			<input type="color"/>
+			<input type="submit" value="Sauvegarder"/>
+			<li>Étape 4: Quel est l'humeur de votre couleur? </li>
+			<p>
+				<input type="color"/>
+				<textarea rows="1" cols="8" placeholder="Ex: joie"></textarea>
+				
+				</p>
+
+			<!-- inserir uma imagem de um quadrado amarelo. Escrever o título "Nomer votre couleur" e colocar um textarea com placeholder="Ex. joie"-->													
+
+			<li>Étape 5: Sauvegarder ma composition de couleurs</li>
+			<br/>
+			<input type="submit" value="Sauvegarder"/><br/>
+			
+			<br/>
+			<li>Étape 6: C'est parti!</li>
+			<br/>
+			<form method="post" action="traitement.php">
+				<p>
+					Veuillez indiquer la couleur de votre humeur maintenant:<br/>
+					<input type="radio" name=couleur value="jaune" id="jaune"/><label for="jaune">Jaune</label><br/>
+					<input type="radio" name=couleur value="bleu" id="blue"/><label for="bleu">Bleu</label><br/>
+					<input type="radio" name=couleur value="rouge" id="rouge"/><label for="rouge">Rouge</label><br/>
+					<input type="radio" name=couleur value="vert" id="vert"/><label for="vert">Rouge</label><br/>
+					<input type="radio" name=marron  value="marron" id="marron"/><label for="marron">Marron</label><br/>
+				</p>
+			     <p>
+			     	<input type="submit" value="Envoyer"/>
+			</form>
+			
+			<li>Étape 7: Consulter vos couleurs: 1. du jour; 2. de la semaine; 3 du mois; 4 de l'année.</li>
+			<input type="date"/>
+
+
+		</form>
+		</ul>
+
+
+
+
+	</body>
+
+</html>
