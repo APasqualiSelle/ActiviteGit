@@ -1,3 +1,15 @@
+@font-face {
+
+	font-family:'blackout';
+	src: url('Blackout Sunrise.ttf');
+}
+
+h1 {
+
+	font-family:'blackout';
+}
+
+
 .colorierhumeurs {
 
 	
