@@ -1,0 +1,11 @@
+﻿Gérer son code avec Git et GitHub
+Activité Partie 2 : Partager un repository sur GitHub
+
+L'URL de mon repository :
+(exemple : https://github.com/marcgg/Simple-Placeholder)
+
+
+Voici  l'URL de mon repository sur GitHub: 
+https://github.com/APasqualiSelle/ActiviteGit
+
+C'est un test ;-)
